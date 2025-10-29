@@ -1,0 +1,235 @@
+id,condition,age_at_diagnosis,age,height,weight,gender,handedness,appearance_in_kinship,label,diagnosis_type
+001,Healthy,56,56,173,78,1,1,1,0,0
+002,Other Movement Disorders,69,81,193,104,1,1,0,2,2
+003,Healthy,45,45,170,78,0,1,0,0,0
+004,Parkinson's,63,67,161,90,0,1,0,1,1
+006,Parkinson's,60,72,171,115,0,1,0,1,1
+007,Other Movement Disorders,73,74,181,94,1,1,0,2,2
+011,Other Movement Disorders,45,51,183,77,1,1,0,2,2
+014,Parkinson's,57,72,162,54,0,1,0,1,1
+016,Other Movement Disorders,69,69,180,92,1,1,1,2,2
+017,Multiple Sclerosis,45,51,195,105,1,1,0,2,2
+018,Atypical Parkinsonism,50,54,180,68,0,1,0,2,2
+021,Healthy,64,64,184,105,1,0,0,0,0
+023,Other Movement Disorders,49,56,178,83,0,1,0,2,2
+024,Other Movement Disorders,65,68,170,77,1,1,0,2,2
+027,Healthy,76,76,175,79,0,0,0,0,0
+032,Atypical Parkinsonism,69,77,176,79,1,1,0,2,2
+034,Healthy,51,51,160,79,0,1,0,0,0
+035,Other Movement Disorders,50,72,168,104,1,1,1,2,2
+036,Multiple Sclerosis,24,40,183,75,1,1,1,2,2
+041,Parkinson's,56,64,192,98,1,1,0,1,1
+042,Other Movement Disorders,80,80,165,78,0,1,1,2,2
+045,Healthy,49,49,167,53,0,1,0,0,0
+046,Healthy,60,60,178,69,1,1,0,0,0
+049,Parkinson's,38,61,182,81,1,1,0,1,1
+052,Healthy,49,49,185,89,1,0,0,0,0
+054,Healthy,40,40,183,88,0,1,1,0,0
+056,Parkinson's,48,53,184,72,0,1,0,1,1
+058,Other Movement Disorders,48,60,173,64,1,1,0,2,2
+059,Parkinson's,58,59,153,60,0,1,0,1,1
+062,Healthy,79,79,160,49,0,1,0,0,0
+063,Parkinson's,52,58,179,97,1,1,1,1,1
+064,Atypical Parkinsonism,55,58,175,122,1,1,0,2,2
+065,Parkinson's,32,47,175,70,1,1,0,1,1
+069,Parkinson's,53,57,152,65,0,1,0,1,1
+070,Essential Tremor,60,78,155,60,0,1,0,2,2
+071,Parkinson's,33,46,184,110,1,1,0,1,1
+072,Essential Tremor,27,62,180,99,1,1,0,2,2
+073,Parkinson's,37,49,167,74,1,1,0,1,1
+075,Other Movement Disorders,36,66,170,80,0,0,0,2,2
+077,Other Movement Disorders,37,41,170,60,0,1,0,2,2
+078,Healthy,63,63,154,56,0,0,0,0,0
+079,Essential Tremor,59,69,187,88,1,1,1,2,2
+080,Healthy,71,71,170,68,0,0,0,0,0
+081,Healthy,67,67,180,102,1,1,0,0,0
+084,Healthy,90,90,180,80,1,0,0,0,0
+085,Parkinson's,50,69,178,69,1,1,0,1,1
+086,Parkinson's,40,46,163,69,0,1,1,1,1
+088,Essential Tremor,60,70,183,82,1,1,1,2,2
+089,Parkinson's,67,69,187,94,1,1,0,1,1
+091,Essential Tremor,64,69,163,65,1,1,1,2,2
+097,Healthy,67,67,170,124,0,1,0,0,0
+099,Parkinson's,45,68,185,88,1,1,0,1,1
+100,Essential Tremor,39,49,187,90,1,1,0,2,2
+101,Healthy,58,58,166,60,0,1,0,0,0
+102,Parkinson's,64,80,171,93,1,1,1,1,1
+103,Other Movement Disorders,52,53,186,100,1,1,0,2,2
+104,Essential Tremor,59,63,173,63,1,1,0,2,2
+107,Parkinson's,37,49,165,100,0,1,0,1,1
+108,Healthy,61,61,165,63,0,1,0,0,0
+109,Parkinson's,73,79,170,70,1,1,0,1,1
+111,Other Movement Disorders,42,46,163,76,0,1,0,2,2
+112,Essential Tremor,64,64,161,56,0,1,1,2,2
+114,Atypical Parkinsonism,57,61,165,68,0,1,1,2,2
+117,Other Movement Disorders,0,82,172,76,1,1,0,2,2
+118,Atypical Parkinsonism,64,67,160,55,0,1,0,2,2
+119,Parkinson's,47,54,172,80,1,1,0,1,1
+123,Other Movement Disorders,66,69,179,77,1,1,1,2,2
+126,Essential Tremor,53,63,170,81,1,1,0,2,2
+127,Parkinson's,48,51,168,105,0,1,0,1,1
+132,Healthy,63,63,186,86,1,0,0,0,0
+134,Healthy,48,48,184,90,1,1,0,0,0
+135,Parkinson's,69,69,172,71,0,1,1,1,1
+137,Other Movement Disorders,63,69,175,76,1,1,1,2,2
+139,Parkinson's,64,70,176,64,1,1,0,1,1
+141,Healthy,64,64,179,77,1,1,0,0,0
+142,Multiple Sclerosis,31,60,172,73,0,1,0,2,2
+143,Essential Tremor,58,61,165,71,0,1,1,2,2
+144,Parkinson's,40,49,195,92,1,1,0,1,1
+145,Parkinson's,63,70,186,104,1,1,0,1,1
+147,Parkinson's,50,66,164,58,0,1,1,1,1
+148,Healthy,80,80,169,77,1,1,0,0,0
+152,Healthy,56,56,187,120,1,1,0,0,0
+153,Healthy,77,77,173,77,1,1,1,0,0
+156,Parkinson's,58,69,160,50,0,1,0,1,1
+157,Parkinson's,61,75,173,83,1,1,1,1,1
+160,Healthy,76,76,160,63,0,1,0,0,0
+161,Other Movement Disorders,67,70,190,95,1,1,0,2,2
+162,Parkinson's,35,46,168,69,0,1,0,1,1
+164,Other Movement Disorders,42,68,178,85,1,1,0,2,2
+165,Healthy,56,56,175,88,1,1,0,0,0
+167,Healthy,58,58,162,46,0,1,0,0,0
+169,Parkinson's,51,56,180,82,0,1,1,1,1
+172,Parkinson's,59,65,163,103,0,1,0,1,1
+180,Parkinson's,49,73,160,73,0,1,0,1,1
+181,Parkinson's,51,67,153,53,1,1,0,1,1
+183,Other Movement Disorders,39,54,173,61,0,1,0,2,2
+185,Parkinson's,63,72,171,92,1,0,1,1,1
+188,Essential Tremor,5,79,162,62,0,1,0,2,2
+191,Other Movement Disorders,48,56,173,68,0,1,1,2,2
+193,Healthy,40,40,183,78,1,1,0,0,0
+195,Multiple Sclerosis,0,57,182,87,1,1,0,2,2
+196,Other Movement Disorders,63,69,174,76,1,1,1,2,2
+199,Healthy,70,70,170,85,1,1,0,0,0
+200,Essential Tremor,51,54,182,100,1,1,1,2,2
+201,Parkinson's,46,48,159,57,0,1,0,1,1
+203,Healthy,88,88,168,56,0,0,0,0,0
+204,Healthy,56,56,175,88,1,1,0,0,0
+205,Healthy,78,78,170,75,0,1,0,0,0
+207,Other Movement Disorders,45,78,173,94,0,1,0,2,2
+209,Other Movement Disorders,47,48,161,68,0,1,1,2,2
+211,Parkinson's,53,69,168,69,1,0,1,1,1
+212,Healthy,71,71,165,92,0,1,0,0,0
+213,Other Movement Disorders,56,69,168,65,0,1,0,2,2
+214,Healthy,76,76,160,64,0,1,0,0,0
+216,Parkinson's,73,78,172,70,1,1,0,1,1
+219,Parkinson's,60,72,180,85,1,1,0,1,1
+222,Essential Tremor,82,85,178,80,1,0,0,2,2
+223,Parkinson's,60,65,165,64,0,1,1,1,1
+224,Other Movement Disorders,51,51,167,63,0,1,0,2,2
+225,Multiple Sclerosis,62,67,174,89,0,1,1,2,2
+227,Healthy,65,65,55,59,0,1,0,0,0
+228,Parkinson's,57,70,156,60,0,1,1,1,1
+229,Healthy,68,68,179,100,1,1,0,0,0
+230,Healthy,70,70,160,65,0,1,0,0,0
+231,Healthy,52,52,168,109,0,1,0,0,0
+232,Healthy,54,54,172,78,0,1,0,0,0
+237,Parkinson's,0,60,168,70,0,1,0,1,1
+239,Parkinson's,73,83,175,75,1,1,0,1,1
+241,Other Movement Disorders,75,82,178,78,1,1,1,2,2
+244,Parkinson's,51,53,183,110,1,1,0,1,1
+245,Parkinson's,48,63,168,70,0,1,1,1,1
+246,Parkinson's,62,77,183,82,1,1,0,1,1
+247,Healthy,68,68,180,88,1,1,0,0,0
+248,Parkinson's,56,70,158,45,0,1,0,1,1
+250,Healthy,42,42,168,68,0,1,0,0,0
+251,Healthy,52,52,170,73,0,1,0,0,0
+253,Healthy,61,61,162,86,0,0,0,0,0
+254,Healthy,57,57,176,91,1,1,1,0,0
+256,Parkinson's,48,54,172,79,0,1,1,1,1
+259,Parkinson's,52,62,185,111,1,1,0,1,1
+263,Parkinson's,46,54,191,98,1,0,0,1,1
+270,Parkinson's,56,58,170,67,0,1,1,1,1
+272,Healthy,70,70,170,70,0,1,1,0,0
+273,Other Movement Disorders,48,51,179,93,0,1,0,2,2
+275,Essential Tremor,63,64,185,83,1,1,1,2,2
+276,Other Movement Disorders,14,42,178,62,0,1,1,2,2
+278,Essential Tremor,19,61,176,91,1,1,1,2,2
+280,Atypical Parkinsonism,73,77,162,65,0,1,0,2,2
+282,Parkinson's,60,78,175,68,1,1,0,1,1
+283,Healthy,61,61,170,103,0,1,0,0,0
+284,Healthy,83,83,180,77,1,1,0,0,0
+285,Healthy,79,79,169,68,0,1,0,0,0
+286,Parkinson's,47,55,185,77,1,1,0,1,1
+288,Other Movement Disorders,48,48,172,79,0,1,0,2,2
+289,Parkinson's,78,84,180,71,1,1,0,1,1
+292,Parkinson's,72,81,165,55,0,1,0,1,1
+293,Parkinson's,73,79,160,53,0,1,1,1,1
+294,Healthy,62,62,157,89,0,1,0,0,0
+295,Healthy,64,64,170,79,1,1,0,0,0
+297,Other Movement Disorders,60,65,167,50,0,1,0,2,2
+298,Other Movement Disorders,58,67,169,131,0,1,1,2,2
+304,Atypical Parkinsonism,62,64,172,90,1,1,0,2,2
+305,Parkinson's,47,47,196,110,1,1,0,1,1
+308,Healthy,40,40,183,88,0,1,1,0,0
+310,Other Movement Disorders,59,60,172,90,0,1,0,2,2
+311,Healthy,66,66,163,62,0,1,0,0,0
+312,Parkinson's,46,58,175,82,0,1,1,1,1
+314,Other Movement Disorders,0,52,176,80,1,1,1,2,2
+315,Other Movement Disorders,47,56,173,68,0,1,1,2,2
+317,Other Movement Disorders,50,52,167,68,0,1,0,2,2
+318,Other Movement Disorders,75,85,176,60,0,1,1,2,2
+319,Healthy,54,54,178,94,0,1,0,0,0
+320,Healthy,72,72,162,57,0,1,0,0,0
+326,Other Movement Disorders,55,63,190,100,1,1,0,2,2
+330,Essential Tremor,67,72,183,97,1,1,1,2,2
+334,Other Movement Disorders,68,77,160,72,0,1,1,2,2
+335,Healthy,67,67,167,63,0,1,1,0,0
+340,Essential Tremor,67,78,162,78,0,1,1,2,2
+341,Parkinson's,61,76,152,53,0,1,0,1,1
+347,Parkinson's,63,67,174,100,1,1,1,1,1
+350,Essential Tremor,20,52,165,48,0,1,0,2,2
+351,Parkinson's,80,85,177,75,1,1,0,1,1
+352,Parkinson's,45,55,172,80,0,1,1,1,1
+353,Parkinson's,58,64,185,122,1,1,0,1,1
+359,Other Movement Disorders,62,71,174,69,1,1,0,2,2
+360,Parkinson's,43,49,182,93,1,1,0,1,1
+361,Parkinson's,53,55,164,58,0,1,1,1,1
+363,Parkinson's,60,62,168,65,1,1,0,1,1
+365,Parkinson's,72,74,165,87,0,1,0,1,1
+367,Other Movement Disorders,38,42,174,72,0,0,1,2,2
+370,Healthy,85,85,176,77,1,1,0,0,0
+371,Healthy,48,48,177,67,0,1,1,0,0
+373,Other Movement Disorders,51,53,163,60,0,1,0,2,2
+377,Parkinson's,48,58,180,68,1,1,1,1,1
+379,Healthy,81,81,184,84,1,1,0,0,0
+385,Parkinson's,51,55,160,60,0,1,1,1,1
+388,Parkinson's,67,68,179,72,0,1,0,1,1
+389,Healthy,67,67,158,70,0,1,1,0,0
+392,Parkinson's,48,55,165,64,0,1,0,1,1
+393,Parkinson's,51,54,160,59,0,1,0,1,1
+396,Essential Tremor,75,79,166,83,1,1,0,2,2
+398,Parkinson's,75,75,165,90,1,1,1,1,1
+399,Other Movement Disorders,54,55,179,85,1,1,0,2,2
+402,Healthy,80,80,177,92,1,1,1,0,0
+406,Parkinson's,49,58,178,85,1,1,1,1,1
+409,Parkinson's,79,79,172,86,0,1,0,1,1
+414,Other Movement Disorders,67,69,180,77,1,0,0,2,2
+416,Healthy,72,72,168,63,0,1,0,0,0
+417,Parkinson's,60,78,186,83,1,0,1,1,1
+419,Healthy,65,65,182,98,1,1,0,0,0
+421,Multiple Sclerosis,47,49,168,71,0,1,0,2,2
+423,Essential Tremor,20,50,162,74,0,1,1,2,2
+427,Healthy,50,50,170,59,0,1,1,0,0
+430,Parkinson's,63,66,160,72,0,1,1,1,1
+433,Parkinson's,69,79,167,56,0,1,0,1,1
+434,Other Movement Disorders,0,75,162,52,0,1,0,2,2
+435,Parkinson's,59,78,170,90,1,1,0,1,1
+436,Healthy,75,75,173,84,1,1,0,0,0
+442,Parkinson's,58,67,165,50,0,1,0,1,1
+443,Parkinson's,63,69,179,81,1,1,0,1,1
+444,Healthy,42,42,170,62,0,1,0,0,0
+445,Essential Tremor,45,45,165,53,0,1,0,2,2
+446,Parkinson's,60,63,165,77,0,1,1,1,1
+449,Healthy,45,45,194,109,1,1,1,0,0
+450,Other Movement Disorders,0,59,186,83,1,1,0,2,2
+453,Other Movement Disorders,0,48,164,59,0,1,0,2,2
+455,Healthy,60,60,175,100,0,1,0,0,0
+457,Healthy,69,69,167,92,0,1,0,0,0
+459,Healthy,81,81,184,84,1,1,0,0,0
+462,Other Movement Disorders,0,58,160,75,0,1,0,2,2
+463,Healthy,65,65,180,90,1,1,0,0,0
+464,Parkinson's,36,51,184,68,1,1,0,1,1
+466,Healthy,84,84,172,74,0,1,1,0,0
+469,Parkinson's,44,54,165,67,0,1,0,1,1
