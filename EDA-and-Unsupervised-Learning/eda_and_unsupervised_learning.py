@@ -39,12 +39,13 @@ labels_df = pd.read_csv("modified_stratified_patient_data.csv",header=0)
 
 # Extract features and labels from dataframes
 X = feature_df.drop(columns=['subject_id'])
-Y = labels_df['label']
+Y = labels_df[['label','id']]
 
 # Split into 80-20 train-test stratifying on labels 
 # Index is based on order in original csv files
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, 
-                                                    random_state=5, stratify=Y)
+                                                    random_state=5, stratify=Y['label'])
+
 
 # Make full train set
 train_set = pd.concat([X_train,Y_train],axis=1)
@@ -100,7 +101,7 @@ X_final = X_train[final_features]
 # Split train set into test and train for determining unsupervised learning
 # effectiveness
 X_final_train, X_final_test, Y_final_train, Y_final_test = train_test_split(
-    X_final, Y_train, test_size = 0.2, random_state = 5, stratify=Y_train)
+    X_final, Y_train, test_size = 0.2, random_state = 5, stratify=Y_train['label'])
 # Scale data based on train
 scaler = StandardScaler()
 X_final_train_scale = scaler.fit_transform(X_final_train)
@@ -136,9 +137,9 @@ X_test_scaled = scaler.transform(X_final_test)
 X_test_pca_2 = pca_2_train.transform(X_test_scaled)
 # Make train DataFrame and test DataFrame
 pca_train_df =pd.DataFrame(data= X_train_pca_2,columns=['PC1','PC2'])
-pca_train_df['Label'] = Y_final_train.values
+pca_train_df['Label'] = Y_final_train['label'].values
 pca_test_df=pd.DataFrame(data= X_test_pca_2,columns=['PC1','PC2'])
-pca_test_df['Label'] = Y_final_test.values
+pca_test_df['Label'] = Y_final_test['label'].values
 # Plot two scatters plot to see train vs test for first two components
 fig, (ax1,ax2) = plt.subplots(1,2)
 fig.set_size_inches(12,6)
@@ -158,7 +159,7 @@ plt.show()
 
 # Make dataframes of full overall train set
 all_features_scaled = np.vstack([X_final_train_scale, X_final_test_scale])
-labels = np.concatenate([Y_final_train.values,Y_final_test.values])
+labels = np.concatenate([Y_final_train['label'].values,Y_final_test['label'].values])
 # Apply t-SNE with 2 components for plotting, 
 tsne = TSNE(n_components=2, random_state=30, init='pca', learning_rate='auto')
 features_tsne = tsne.fit_transform(all_features_scaled)
@@ -195,9 +196,9 @@ buffer_save = pd.concat([Y_test,X_test_final],axis=1)
 buffer_save.to_csv('test_significant_critical_features.csv',index=False)
 
 Y_train_no_index = pd.DataFrame(Y_train.values)
-Y_train_no_index.columns = ['label']
+Y_train_no_index.columns = ['label','id']
 Y_test_no_index = pd.DataFrame(Y_test.values)
-Y_test_no_index.columns = ['label']
+Y_test_no_index.columns = ['label','id']
 
 # Save 21 PCA componets for 90% of variance
 X_train_scaled = scaler.fit_transform(X_final)
